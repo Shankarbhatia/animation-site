@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body[theme="black"]{
+    background-color: #000;
+}
+body[theme="cyan"]{
+    background-color: #80becc;
+}
+body[theme="light"]{
+    background-color: #ffffff;
+    color:#fff;
+}
+body[theme="salmon"]{
+    background-color: rgb(250, 128, 114);
+}
